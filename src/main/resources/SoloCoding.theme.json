@@ -1,0 +1,97 @@
+{
+  "name": "Solo Coding",
+  "dark": true,
+  "author": "Aero",
+  "editorScheme": "/colorSchemes/SoloCoding.xml",
+  "ui": {
+    "*": {
+      "background": "$backgroundColor",
+      "selectionBackground": "$selectionBackground"
+    },
+    "ToolWindow": {
+      "Button": {
+        "selectedBackground": "$backgroundColor",
+        "selectedForeground": "$selectionBackground",
+        "hoverBackground": "$hoverColor"
+      },
+      "Header": {
+        "borderColor": "$backgroundBrighterColor",
+        "background": "$backgroundColor",
+        "inactiveBackground": "$backgroundColor"
+      },
+      "HeaderTab": {
+        "selectedBackground": "$selectionBackground",
+        "selectedInactiveBackground": "$selectionBackground",
+        "hoverBackground": "$hoverColor",
+        "hoverInactiveBackground": "$hoverColor"
+      }
+    },
+    "Editor": {
+      "background": "#$backgroundColor",
+      "Toolbar.borderColor": "$borderColor"
+    },
+    "List": {
+      "selectionBackground": "$selectionBackground"
+    },
+    "SearchEverywhere": {
+      "Tab.selectedBackground": "$selectionBackground"
+    },
+    "Tree": {
+      "selectionInactiveBackground": "$selectionBackground"
+    },
+    "ParameterInfo": {
+      "background": "$backgroundColor",
+      "currentOverloadBackground": "$selectionBackground"
+    },
+
+    "ScrollBar": {
+      "background": "$backgroundColor"
+    },
+
+    "Panel": {
+      "background": "$backgroundColor"
+    },
+
+    "ActionButton.hoverBackground": "$hoverColor",
+
+    "EditorTabs": {
+      "underlineColor": "$selectedEditorTabUnderlineColor",
+      "underlineHeight": 3,
+      "underlinedTabBackground": "#000000",
+      "inactiveColoredFileBackground": "#00000000"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#584f85",
+      "Actions.GreyInline": "#584f85",
+      "Actions.GreyInline.Dark": "#584f85",
+      "Actions.Red": "#AD3F4E",
+      "Actions.Green": "#7D9B6A",
+      "Actions.Blue": "#92A0D3",
+      "Actions.Yellow": "#D9BF9B",
+      "Tree.iconColor": "#7E6AB6",
+      "Objects.Grey": "#584f85",
+      "Objects.BlackText": "#7D9B6A",
+      "Objects.Red": "#AD3F4E",
+      "Objects.RedStatus": "#AD3F4E",
+      "Objects.Yellow": "#D9BF9B",
+      "Objects.YellowDark": "#D9BF9B",
+      "Objects.Green": "#669653",
+      "Objects.GreenAndroid": "#669652",
+      "Objects.Blue": "#92A0D3",
+      "Objects.Purple": "#6551B7",
+      "Objects.Pink": "#6551B7"
+    }
+  },
+  "colors": {
+    "$backgroundColor": "#080613",
+    "$backgroundBrighterColor": "#0F0B24",
+    "$inEditorBorder": "#201040",
+    "$selectionBackground": "#7758B5",
+    "$buttonAndPanelBackgroundColor": "#EEEDFA",
+    "$borderColor": "#7758B5",
+    "$selectedEditorTabUnderlineColor": "#7E6AB6",
+    "$hoverColor": "#7758B5"
+  }
+}

@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.soloCoding.SoloCoding</id>
+    <name>Solo Coding</name>
+    <version>1.0.0</version>
+    <category>UI</category>
+
+    <vendor email="aerooneQ@yandex.ru">AS</vendor>
+    <idea-version since-build="212" until-build="222.*"/>
+
+     <description><![CDATA[
+    The theme inspired by Solo Leveling web novel
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="SoloCoding" path="SoloCoding.theme.json" />
+    </extensions>
+</idea-plugin>
