@@ -1,5 +1,12 @@
 <scheme name="Solo Coding" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2022-03-30T17:07:58</property>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2022.1.0.0</property>
+    <property name="modified">2022-03-30T17:08:11</property>
+    <property name="originalScheme">_@user_Solo Coding</property>
+  </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
@@ -50,7 +57,7 @@
     <option name="FILESTATUS_changelistConflict" value="9a97f4" />
     <option name="FILESTATUS_modifiedOutside" value="86dbfd" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="9a97f4" />
-    <option name="GUTTER_BACKGROUND" value="80613" />
+    <option name="GUTTER_BACKGROUND" value="e0b21" />
     <option name="GrepConsole.debug.foreground" value="79769f" />
     <option name="GrepConsole.error.background" value="2b1013" />
     <option name="GrepConsole.fatal.background" value="1d102c" />

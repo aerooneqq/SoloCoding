@@ -1,4 +1,4 @@
-<idea-plugin>
+<idea-plugin require-restart="false">
     <id>com.soloCoding.SoloCoding</id>
     <name>Solo Coding</name>
     <version>1.0.0</version>

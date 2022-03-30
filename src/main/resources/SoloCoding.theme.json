@@ -5,7 +5,7 @@
   "editorScheme": "/colorSchemes/SoloCoding.xml",
   "ui": {
     "*": {
-      "background": "$backgroundColor",
+      "background": "$backgroundBrighterColor",
       "selectionBackground": "$selectionBackground"
     },
     "ToolWindow": {
@@ -16,11 +16,10 @@
       },
       "Header": {
         "borderColor": "$backgroundBrighterColor",
-        "background": "$backgroundColor",
-        "inactiveBackground": "$backgroundColor"
+        "background": "$inactiveHeaderColor",
+        "inactiveBackground": "$inactiveHeaderColor"
       },
       "HeaderTab": {
-        "selectedBackground": "$selectionBackground",
         "selectedInactiveBackground": "$selectionBackground",
         "hoverBackground": "$hoverColor",
         "hoverInactiveBackground": "$hoverColor"
@@ -40,16 +39,16 @@
       "selectionInactiveBackground": "$selectionBackground"
     },
     "ParameterInfo": {
-      "background": "$backgroundColor",
+      "background": "$backgroundBrighterColor",
       "currentOverloadBackground": "$selectionBackground"
     },
 
     "ScrollBar": {
-      "background": "$backgroundColor"
+      "background": "$backgroundBrighterColor"
     },
 
     "Panel": {
-      "background": "$backgroundColor"
+      "background": "$backgroundBrighterColor"
     },
 
     "ActionButton.hoverBackground": "$hoverColor",
@@ -86,7 +85,9 @@
   },
   "colors": {
     "$backgroundColor": "#080613",
+    "$gutterBackground": "#0e0b21",
     "$backgroundBrighterColor": "#0F0B24",
+    "$inactiveHeaderColor": "#1c143b",
     "$inEditorBorder": "#201040",
     "$selectionBackground": "#7758B5",
     "$buttonAndPanelBackgroundColor": "#EEEDFA",
