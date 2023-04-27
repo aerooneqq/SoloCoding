@@ -5,14 +5,14 @@ plugins {
 }
 
 group = "com.soloCoding"
-version = "1.0.2"
+version = "1.0.3"
 
 repositories {
   mavenCentral()
 }
 
 intellij {
-  version.set("2022.3")
+  version.set("2023.1")
   type.set("IC")
 }
 
